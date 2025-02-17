@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monthly Report</title>
+</head>
+<body>
+    <header>
+        <a href="/">
+            <h1>TicketShow</h1>
+        </a>
+    </header>
+
+    <div>
+        <h1>Monthly Report</h1>
+        <p>Get insights from your Graphical monthly report</p>
+    </div>
+
+    <div>
+        <h2>Bookings this month</h2>
+        <p>Total Bookings: {{ data['bookings_made'] }}</p>
+    </div>
+
+    <div>
+        <h2>Shows Seen this month</h2>
+        <p>Total Shows Seen: {{ data['shows_seen'] }}</p>
+    </div>
+
+    <div>
+        <h2>Average Show Rating this month</h2>
+        <p>Average Rating: {{ data['average_rating'] }}</p>
+    </div>
+
+</body>
+</html>
